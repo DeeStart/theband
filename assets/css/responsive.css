@@ -1,0 +1,155 @@
+/* PC */
+@media (min-width:64em){
+    .pc{
+        display: block;
+    }
+}
+
+/* Tablet and Mobile. */
+
+@media (max-width:63.9375em)
+{
+    .btn{
+        padding: 16px 16px;
+    }
+
+    #nav .subnav a{
+
+        padding: 5px 12px;
+    }
+
+    .contact-info {
+
+        line-height: 2.1;
+    }
+
+    .contact-sumit-btn
+    {
+        font-size: 16px;
+    }
+
+    .contact-form .form-control {
+        padding: 15px;
+        font-size: 16px;
+    }
+
+    #footer .socicals-list {
+        font-size: 32px;
+    }
+
+    #footer .socicals-list a {
+        margin: 0 8px;
+    }
+
+    #footer .copyright a{
+        padding: 12px 0;
+        display: inline-block;
+    }
+}
+
+/* Tablet */
+
+@media (min-width:46.25em) and (max-width:63.9375em){
+    .table{
+        display: block;
+    }
+}
+
+/* Mobile */
+
+@media (max-width:46.1875em) {
+
+    .s-full-width,
+    .s-col-full
+    {
+        width: 100% !important;
+    }
+
+    .s-mt-8
+    {
+        margin-top: 8px !important;
+    }
+        
+        #nav
+        {
+            display: block;
+        }
+
+        #nav .subnav
+        {
+            position: initial;
+            background-color: #333;
+        }
+
+        #nav .subnav a{
+            color: #fff;
+            padding: 5px 42px;
+        }
+
+        #nav .li a
+        {
+            padding: 1px 24px;
+        }
+
+        #nav >li
+        {
+        display: block;
+        }
+
+        #nav >li:first-child
+        {
+        display: inline-block;
+        }
+
+        #header
+        {
+            overflow: hidden;
+        }
+
+        #header .menu-mobile-btn
+        {
+        display: block;
+        }
+
+        #header .search-btn
+        {
+            display: none;
+        }
+
+        #slider .text-heading {
+            font-weight: 500;
+            font-size: 20px;
+            
+          }
+          #slider .text-description {
+            font-size: 9px;
+            margin-top: 8px;
+           
+          }
+
+        #contain .member-img
+        {
+            width: 60%;
+        }
+
+        .contact-form
+        {
+            margin-top: 32px;
+        }
+
+        
+}
+
+@media screen and (max-width: 23.375em) {
+    
+    #slider .text-heading {
+        font-weight: 500;
+        font-size: 14px;
+        
+      }
+      #slider .text-description {
+        font-size: 7px;
+        margin-top: 6px;
+       
+      }
+}
